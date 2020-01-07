@@ -4,7 +4,7 @@ module.exports = function(fileInfo, api) {
 
   root.find(j.MemberExpression).forEach(path => {
     if (path.value.property.name === "protocol") {
-      j(path).replaceWith("wss");
+      j(path).replaceWith("'wss'");
     }
   });
 
