@@ -1,6 +1,6 @@
 {
   "name": "@zhuangya/patch-cra-wss",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "create react app 3.3.0 websocket protocol patch for https and wss protocol",
   "main": "index.js",
   "repository": "https://github.com/zhuangya/patch-cra-wss",
